@@ -1,4 +1,39 @@
 # Interests
-- description: Human rights and world affairs
-- description: Music (baritone saxiphonist)
-- description: Linguistics
+- name: Feature
+  items: 
+    - item: JetBrains/Exposed Add encrypted column type
+      link: https://github.com/JetBrains/Exposed/pull/1365
+    - item: dapr/components-contrib add Ping operation tostore interface.
+      link: https://github.com/dapr/components-contrib/pull/757
+    - item: dapr/dapr add env-vars from annotations #2508
+      link: https://github.com/dapr/dapr/pull/2868
+    - item: line/armeria Add a JMH benchmark for ThriftMessageClassFinder
+      link: https://github.com/line/armeria/pull/2123
+    - item: line/armeria Use StackWalker for TTEXT serialization format when on Java 9+(#1686)
+      link: https://github.com/line/armeria/pull/2055
+- name: Fix
+  items:
+    - item: Chromium Fix KeyEvent repeat check expression
+      link: https://chromium-review.googlesource.com/c/chromium/src/+/2368577
+    - item: Chromium show focus state of customize dialog of ntp
+      link: https://chromium-review.googlesource.com/c/chromium/src/+/2377180
+    - item: DefinitelyTyped/DefinitelyTyped fix(micro-cors) add missing option and change existing
+      link: https://github.com/DefinitelyTyped/DefinitelyTyped/pull/44324
+    - item: nhn/tui.grid fix reorder process order of and event(#838)
+      link: https://github.com/nhn/tui.grid/pull/840
+    - item: nhn/tui.grid fix not applied column options (#492)
+      link: https://github.com/nhn/tui.grid/pull/507
+    - item: nhn/tui.calendar fix Wrong undefined validation expression
+      link: https://github.com/nhn/tui.calendar/pull/212
+- name: Documentation
+  items:
+    - item: dapr/docs Append dapr.io/env annotation.
+      link: https://github.com/dapr/docs/pull/1301
+    - item: spring-cloud/spring-cloud-stream-binder-kafka Fix typo kafka-streams.adoc
+      link: https://github.com/spring-cloud/spring-cloud-stream-binder-kafka/pull/811
+    - item: scala/scala fix comment
+      link: https://github.com/scala/scala/pull/7759
+    - item: scala/scala fix typo
+      link: https://github.com/scala/scala/pull/7710
+    - item: scala/scala fix typo
+      link: https://github.com/scala/scala/pull/7706

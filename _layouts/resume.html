@@ -140,7 +140,7 @@
       <section class="content-section">
 
         <header class="section-header">
-          <h2>Recognition</h2>
+          <h2>Awards</h2>
         </header>
 
         {% for recognition in site.data.recognitions %}
@@ -178,18 +178,21 @@
       {% if site.resume_section_interests %}
       <!-- begin Interests -->
       <section class="content-section">
-
         <header class="section-header">
           <h2>Outside Interests</h2>
         </header>
 
+        {% for interest in site.data.interests %}
         <div class="resume-item">
+          <h3 class="resume-item-title" itemprop="name">{{ interest.name }}</h3>
           <ul class="resume-item-list">
-            {% for interest in site.data.interests %}
-            <li>{{ interest.description }}</li>
+            {% for item in interest.items %}
+              <li><a href="{{ item.link }}">{{ item.item }}</a></li>
             {% endfor %}
+            
           </ul>
         </div>
+        {% endfor %}
 
       </section>
       <!-- end Interests -->
@@ -231,10 +234,10 @@
       <!-- end Print Social Links -->
       {% endif %}
 
-      <footer class="page-footer">
+      <!-- <footer class="page-footer">
         <p class="footer-line">Made by <a href="http://twitter.com/jglovier">@jglovier</a>. Fork me on <a href="https://github.com/jglovier/resume-template">GitHub</a>.</p>
         <p class="footer-line">If this is your live resume, you can modify or remove this part. ;-)</p>
-      </footer>
+      </footer> -->
 
     </div>
 

@@ -10,7 +10,7 @@ sass:
 
 # Resume settings
 resume_avatar:                  "true"
-resume_name:                    "ChanYong Moon"
+resume_name:                    "ChanYong Moon (문찬용)"
 resume_title:                   "Software Engineer"
 
 # used for the contact button in _layouts/resume.html
@@ -20,10 +20,10 @@ resume_contact_email:           "dev.chanyongmoon@gmail.com"
 resume_contact_telephone:       "010-9851-7008"
 resume_contact_address:         "https://moonchanyong.github.io/resume"
 
-resume_header_contact_info:     "https://moonchanyong.github.io/resume • lisasimpson@youremailaddress.com"
+resume_header_contact_info:     "https://moonchanyong.github.io/resume • dev.chanyongmoon@gmail.com"
 display_header_contact_info:    "false"
 
-resume_header_intro: "<p>This is the executive summary. You should write a few brief, concise, and meaningful sentences about yourself from a professional context, and your immediate career goals. Make the length appropriate for your needs, but keep it brief and concise</p>"
+resume_header_intro: "<p>현재는 네이버에서 물류데이터플랫폼을 개발하고 있습니다.<br> 주어진 스펙만을 개발만 하기보다는 기술적인 문제를 해결하기위해 고민하는 것을 선호합니다.<br>경험한 만큼 성장을 한다고 생각하여 많은 경험을 할 수 있으면 좋을 것 같습니다.</p>"
 
 # use "yes" to display the email contact button,
 # "no" to display an "I'm not looking for work" message,
@@ -36,11 +36,11 @@ resume_looking_for_work:        "yes"
 resume_section_experience:      true
 resume_section_education:       true
 resume_section_projects:        true
-resume_section_skills:          true
-resume_section_recognition:     false
+resume_section_skills:          false
+resume_section_recognition:     true
 resume_section_links:           false
 resume_section_associations:    false
-# resume_section_interests:       true
+resume_section_interests:       true
 
 # Resume social links
 # uncomment the options you wish to display, and add your own URL
