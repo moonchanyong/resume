@@ -6,17 +6,61 @@
   role: Individual Contributor
   duration: 2018.10 &mdash; 2019.10
   # url: "#"
-  description: 영화서비스 운영 및 유지보수
+  description: |
+    <p>영화서비스 운영 및 유지보수</p>
+    <details open>
+      <summary>기술스택</summary>
+      <ul class="resume-item-list">
+        <li>Spring</li>
+        <li>Mysql</li>
+      </ul>
+    </details>
 
 # Springfield Community Outreach Group
 - project: JP 스마트스토어
   role: Individual Contributor
   duration: 2019.11 &mdash; 2021.07
   # url: "#"
-  description: 일본을 타겟으로한 스마트스토어 <ul class="resume-item-list"><li>배송트래킹 외부데이터 정규화 모듈 개발</li><li>배송도메인 서버 개발</li><li>판매자 센터 FE 배송 페이지 개발</li></ul>
-
+  description: | 
+    <p>일본을 타겟으로한 스마트스토어</p>
+    <ul class="resume-item-list">
+      <li>배송트래킹 외부데이터 정규화 모듈 개발</li>
+      <li>배송도메인 서버 개발</li>
+      <li>판매자 센터 FE 배송 페이지 개발</li>
+    </ul>
+    <details open>
+      <summary>기술스택</summary>
+      <ul class="resume-item-list">
+        <li>Spring Webflux</li>
+        <li>Mongo DB</li>
+        <li>Kafka</li>
+        <li>k8s</li>
+        <li>Redis</li>
+        <li>Debezium</li>
+        <li>Caffeine</li>
+      </ul>
+    </details>
 - project: 물류데이터플랫폼
   role: Individual Contributor
   duration: 2021.8 &mdash; Present
-  # url: "#"
-  description: NFA 풀필먼트를 위한 물류데이터플랫폼 <ul class="resume-item-list"><li>CQRS 패턴의 API 개발</li><li>데이터 파이프라인 개발</li><li>FE 프로젝트 인프라 구성</li></ul>
+  description: |
+    <p>NFA 풀필먼트를 위한 물류데이터플랫폼</p>
+    <ul class="resume-item-list">
+      <li>CQRS 패턴의 API 개발</li>
+      <li>데이터 파이프라인 개발</li>
+      <li>FE 프로젝트 인프라 구성</li>
+    </ul>
+    <details open>
+      <summary>기술스택</summary>
+      <ul class="resume-item-list">
+        <li>Spring Webflux</li>
+        <li>Kafka</li>
+        <li>Vitess(Mysql)</li>
+        <li>k8s</li>
+        <li>Redis</li>
+        <li>Trino</li>
+        <li>Airflow</li>
+        <li>Debezium</li>
+        <li>Caffeine</li>
+      </ul>
+    </details>
